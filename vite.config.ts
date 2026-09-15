@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/proton-vpn-free-edition/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
